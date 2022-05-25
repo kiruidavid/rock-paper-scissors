@@ -51,7 +51,8 @@ let playRound = (playerSection, computerSelection) => {
 function game(playerChoice){
     let player = playerChoice 
     let computer = computerPlay() 
-    document.getElementById("comp-choice").innerHTML = computer
+    document.getElementById("comp-choice").innerHTML = computer 
+    document.getElementById("comp-choice").style.color = "yellow"
 
     playRound(player, computer) 
     document.getElementById("comp-score").innerHTML = compScore 
@@ -59,10 +60,11 @@ function game(playerChoice){
 
     if (playerScore == 5){ 
     
-        document.getElementById('round-five-result').innerHTML = "YOU WIN !!"
+        document.getElementById('round-five-result').innerHTML = "YOU WIN !! click RESET to reset  " 
+        
 
     } else if(compScore == 5){ 
-        document.getElementById('round-five-result').innerHTML = "COMPUTER WIN !!"
+        document.getElementById('round-five-result').innerHTML = "COMPUTER WIN click RESET to reset !!"
  
     }
 } 

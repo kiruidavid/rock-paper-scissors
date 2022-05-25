@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body> 
+    <h1>LETS PLAY A GAME OF ROCK PAPER SCISSORS:  <span>Game of five</span> </h1> 
+    
+    <div id="round-five-result">
+
+    </div> 
+    <button type="reset" id="resetBtn">RESET</button>
+    <div id="result"> 
+    </div> 
     <div class="rps-buttons"> 
-        <h1>SELECT A CHOICE</h1> 
+        
+        <h3>SELECT A CHOICE</h3> 
         <button type="submit"  id="rock">Rock</button>  
         <button type="submit" id="paper">Paper</ button> 
         <button type="submit" id="scissors">Scissors</button>
 
     </div> 
-    <div id="comp-choice"></div>
-    <div id="result"> 
+    <div class="computer-choice"> 
+        <p>Computer Choice: </p> 
+        <p id="comp-choice"></p>
     </div> 
-    <div id="round-five-result">
+  
 
-    </div>
+    
+    
     <div class="score"> 
-        <p>Computer score</p> 
-        <p id="comp-score">0</p>
-        <p>User score</p> 
-        <p id="user-score">0</p>
+        <p>Computer score:   <span id="comp-score">0</span></p> 
+       
+        <p>User score:  <span id="user-score">0</span></p> 
+       
 
     </div> 
-    <div class="reset-btn"> 
-        <button type="reset" id="resetBtn">RESET</button>
-
-    </div>
+  
     <script src="./javascript.js"></script>
 </body>
 </html>

@@ -1,0 +1,44 @@
+body{
+    background-color: teal; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+h1{
+    
+    padding: 58px; 
+    text-align: center; 
+    
+} 
+p{
+    text-align: center;
+}
+.rps-buttons{ 
+   text-align: center;
+   font-size: 20px; 
+   
+} 
+.rps-buttons button{ 
+   margin: 5px;
+   width: 240px; 
+   height: 45px; 
+   box-shadow: 0px 8px 15px;
+} 
+.computer-choice{
+    padding: 34px 34%; 
+     
+    font-weight: bold; 
+    font-family: -apple-system, BlinkMacSystemFont,  sans-serif;
+} 
+#result{
+   text-align: center; 
+   color: blanchedalmond; 
+   font-size: 24px; 
+   font-weight: bold;
+}
+.score{
+    display: block;
+} 
+#round-five-result{
+    color: blanchedalmond; 
+    font-size: 30px; 
+    font-weight: bold;
+}
